@@ -8,7 +8,9 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
-
+header{
+    background-color: #FFFBF0;
+}
 h1,
 h2 {
     font-family: 'Bebas Neue', cursive;
@@ -27,22 +29,37 @@ h2 {
     color: #363958;
 }
 
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    font-weight: 700;
+}
+
 p {
-    font-size: 16px;
     line-height: 26px;
     color: #3E3E3E;
 }
-button{
+
+button {
     background-image: linear-gradient(180deg, #A4BC46 0%, #85A019 100%);
     border: none;
     color: white;
     padding: 18px 34px;
     border-radius: 10px;
 }
+
 .anchor-color {
     color: #3C3C3C;
 }
 
 .text-yellow {
+    color: #FABE4C;
+}
+
+.price {
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 42px;
     color: #FABE4C;
 }
