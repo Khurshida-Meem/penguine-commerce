@@ -37,6 +37,7 @@ h3 {
 }
 
 p {
+    font-size: 16px;
     line-height: 26px;
     color: #3E3E3E;
 }
@@ -62,4 +63,7 @@ button {
     font-size: 36px;
     line-height: 42px;
     color: #FABE4C;
+}
+.rating p{
+    line-height: normal;
 }
